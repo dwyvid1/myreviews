@@ -10,6 +10,7 @@ This project was developed with the following technologies:
 
 - Next.js
 - React.js
+- JavaScript
 - Styled Components
 
 ## 💻 Project
