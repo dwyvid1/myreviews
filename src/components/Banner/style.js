@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div` 
     display: block;
-    
+
     padding: 10rem 10rem 10rem;
     text-align: center;
     font-family: 'Markazi Text', serif;
@@ -67,7 +67,10 @@ export const Container = styled.div`
     }
 
     @media (max-width: 480px) {
-        padding: 5.5rem 1rem 5.5rem;
+        padding-top: 5.5rem ;
+        padding-left: 1rem; 
+        padding-right: 1rem;
+        padding-bottom: 1rem;
         
         h2 {
             font-size: 3.5rem;
@@ -78,7 +81,10 @@ export const Container = styled.div`
         }
 
     @media (max-width: 350px) {
-        padding: 3rem 0.5rem 3rem;
+        padding-top: 3.3rem ;
+        padding-left: 0.5rem; 
+        padding-right: 0.5rem;
+        padding-bottom: 1rem;
 
         h2 {
             font-size: 3rem;
