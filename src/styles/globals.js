@@ -7,6 +7,8 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 html {
+  background-color: #f2f3f5;
+  
   @media (max-width: 1080px) {
       font-size: 93.75%;
   }

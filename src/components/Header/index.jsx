@@ -5,7 +5,7 @@ export function Header() {
         <Container>
             <Content>
                 <h1>My Reviews</h1>
-                <span>Seja bem-vindo!</span>
+                <h2>Seja bem-vindo!</h2>
             </Content>
         </Container>
     )

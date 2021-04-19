@@ -27,7 +27,7 @@ export const Content = styled.div`
             position: absolute;
         }
 
-        span {
+        h2 {
             color: #000;
         }
 

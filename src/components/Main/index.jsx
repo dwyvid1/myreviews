@@ -1,9 +1,11 @@
-import { Container } from './style'
+import { Container, Reviews } from './style'
 
 export function Main() {
     return (
         <Container>
-            <h2>Análises sempre Profundas e Sinceras</h2>
+            <Reviews>
+                <h2>Principais análises</h2>
+            </Reviews>
         </Container>
     )
 }

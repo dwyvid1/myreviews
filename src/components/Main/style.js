@@ -1,49 +1,57 @@
 import styled from 'styled-components'
 
-export const Container = styled.main` 
-    padding: 15rem;
-
+export const Container = styled.main`
     align-items: center;
     justify-content: center;
+
     font-family: 'Markazi Text', serif;
 
-    background-size: cover;
-    background-position: right;
-    background-image: url('https://cdn.mos.cms.futurecdn.net/YohygrXxwsroDctye3q3ij.jpg');
-
-    h2 {
-        color: #fff;
-
-        font-size: 7.5rem;
+    h1 {
+        font-size: 3.5rem;
         font-weight: 400;
-    }
 
-    @media (max-width: 1140px) {
-        h2 {
-            font-size: 6.5rem;
-        }
-    }
-
-    @media (max-width: 1080px) {
-        padding: 15rem 5rem 15rem;
+        color: #000;
     }
 
     @media (max-width: 900px) {
-        padding: 10rem 5rem 10rem;
+        padding: 3.5rem 3.5rem;
     }
 
-    @media (max-width: 600px) {
-        h2 {
-            font-size: 5.5rem;
-        }
-        padding: 7.5rem 2rem 7.5rem;
+    @media (max-width: 650px) {
+        padding: 2.5rem 2.5rem;
     }
 
-    @media (max-width: 480px) {
-        h2 {
-            font-size: 3.5rem;
+    @media (max-width: 550px) {
+        padding: 1rem 1rem;
+        h1 {
+            font-size: 2.5rem;
         }
+    }
+`
 
-        padding: 5.5rem 1rem 5.5rem;
+export const Reviews = styled.div`
+    font-family: 'Markazi Text', serif;
+
+   h2 {
+    display: flex;
+    justify-content: center;
+
+    color: #000;
+    font-weight: 400;
+    font-size: 3.5rem;
+   }
+
+   h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.5rem;  
+   }
+
+   @media (max-width: 550px) {
+        margin-top: 2.5rem;
+
+        h2 {
+            font-size: 2.5rem;
+        }
     }
 `
