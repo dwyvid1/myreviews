@@ -47,7 +47,7 @@ export const Reviews = styled.div`
     display: flex;
     justify-content: center;
 
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 
     color: #000;
     font-weight: 400;
