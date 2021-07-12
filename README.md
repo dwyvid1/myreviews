@@ -17,4 +17,20 @@ This project was developed with the following technologies:
 
 My Reviews is a website created with the intent of making in-depth analyzes and straight to the point of games.
 
+## 🚀 Getting started
+
+Clone the project and access the folder
+
+```bash
+$ git clone https://github.com/dwyvid1/myreviews.git
+```
+
+Follow the steps below
+```bash
+# Install the dependencies
+$ yarn
+
+# Start the project
+$ yarn dev
+
 Made with ❤️ by Deyvid Nascimento :wave:
