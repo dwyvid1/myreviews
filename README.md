@@ -4,7 +4,7 @@
 
 I am a big fan of games. During my life I played games that changed my life and that I will never forget. I decided to join my love of games with programming. It was from this junction that I decided to create this project.
 
-## 🚀 Technologies
+## :star2: Technologies
 
 This project was developed with the following technologies:
 
