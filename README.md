@@ -32,5 +32,6 @@ $ yarn
 
 # Start the project
 $ yarn dev
+```
 
 Made with ❤️ by Deyvid Nascimento :wave:
